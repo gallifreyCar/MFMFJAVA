@@ -1,0 +1,16 @@
+spring:
+  datasource:
+    name: ssm
+    url: jdbc:mysql://localhost:3306/ssm
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+  type-aliases-package: com.Gallifrey.springboot00.bean
+
+
+server:
+  port: 9001
